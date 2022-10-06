@@ -1,0 +1,61 @@
+.one {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+
+}
+
+.two {
+    background-color: rgb(255, 0, 0);
+}
+label {
+    font-size: 50px;
+    margin: 30px;
+
+}
+input {
+    width: 400px;
+    height: 40px;
+    margin: 30px;
+}
+button {
+    margin: 30px;
+    width: 100px;
+    height: 30px;
+
+}
+
+/* .container {
+    text-align: center;
+
+} */
+
+
+
+.one {
+    color: red;
+    background-color: rgb(0, 136, 255);
+    font-size: 40px;
+}
+
+.two {
+    color: rgb(25, 0, 255);
+    background-color: blanchedalmond;
+    font-size: 40px;
+}
+
+.yel {
+    background-color: yellow;
+}
+.re {
+    background-color: red;
+}
+.gre {
+    background-color: green;
+}
+.blu {
+    background-color: blue;
+}
+
+.close {
+    color: yellow;
+}

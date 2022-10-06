@@ -1,0 +1,142 @@
+<!-- <div class="container">
+  <label>ngModel</label>
+<br>
+<input type="text" [(ngModel)]= "first"  >
+<br>
+<input type="text" [(ngModel)]= "first">
+<br>
+<button type="button" [(ngModel)]= "first" (click)="yellow()" [ngClass]="'yel'">Yellow</button>
+<button type="button" [(ngModel)]= "first" (click)="green()" [ngClass]="'gre'">green </button>
+<button type="button" [(ngModel)]= "first" (click)="red()" [ngClass]="'re'">red </button>
+<button type="button" [(ngModel)]= "first" (click)="blue()" [ngClass]="'blu'">blue</button>
+<button type="button" [(ngModel)]= "first" (click)="click()">click </button>
+</div>
+
+<div *ngIf="title.length > 0; then name1 else name"></div>
+<ng-template #name1>fe</ng-template >
+<ng-template #name>false</ng-template > -->
+<!-- <div class="container">
+  <label>*ngIf</label>
+  <br>
+  <div  class="if" *ngIf="first.length > 3;else name">true</div>
+  <ng-template #name>false</ng-template>
+</div>
+
+  
+
+
+
+<div [ngSwitch]="fruit" [ngClass]="'one'">
+  <div *ngSwitchCase="'kiwi'">taste</div>
+  <div *ngSwitchCase="'banana'">good</div>
+  <div *ngSwitchCase="'mango'">yellow</div>
+  <div *ngSwitchCase="'orange'">bright</div>
+  <div *ngSwitchDefault="">no one</div>
+</div>
+
+ 
+
+
+
+
+
+ <p [appHighlights]="color">Highlight me!</p> -->
+<!-- 
+<h1>{{title}}</h1>
+<p [ngClass]="{one:cone,two:ctwo  }" >ngclass</p>
+
+<button (click)="buttonn()">Click me</button>
+<p [ngStyle]="{'font-style':style,'font-size':size}">ngstyle</p>
+
+
+<div [ngClass]="{one:true,two:true}">welcome</div>
+<div [ngClass]="'two'":false>welcome two</div> -->
+
+<!-- <div [ngClass]="[cl1]">welcome to </div>
+
+
+
+
+
+
+<table>
+  <tr>
+  <th>ID</th>
+  <th>NAME</th>
+  </tr>
+  <tr *ngFor="let table of tables" [ngClass]="[firstc,secondc]">
+    <td>{{table.id}}</td>
+    <td>{{table.name}}</td>
+  </tr>
+</table>
+ -->
+
+
+<!-- 
+<h1>My First Attribute Directive</h1>
+
+<h4>Pick a highlight color</h4>
+<div>
+  <input type="radio" name="colors" (click)="color='lightgreen'">Green
+  <input type="radio" name="colors" (click)="color='yellow'">Yellow
+  <input type="radio" name="colors" (click)="color='cyan'">Cyan
+</div>
+<p [appHighlights]="color">Highlight me!</p>
+
+<p [appHighlights]="color" defaultColor="violet">
+  Highlight me too!
+</p>
+
+<hr>
+<p><i>Mouse over the following lines to see fixed highlights</i></p>
+
+<p [appHighlights]="'yellow'">Highlighted in yellow</p>
+<p appHighlights="orange">Highlighted in orange</p> 
+
+
+ -->
+
+
+
+
+
+
+
+
+
+
+<input type="text" [ngModel]="match">
+
+<button (click)="five()" [ngModel]="match">Blue</button>
+<input [style.color]="colorblue ? 'blue' : 'black'" [ngModel]="match">Hello, I am a Blue
+<hr/>
+<button (click)="six()" [ngModel]="match">Green</button>
+<p [style.color]="colorgreen ? 'green' : 'black'" [ngModel]="match">Hello, I am a Green</p>
+<hr/>
+<button (click)="seven()" [ngModel]="match">Yellow</button>
+<p [style.color]="coloryellow ? 'yellow' : 'black'" [ngModel]="match">Hello, I am a Yellow.</p>
+<hr/>
+<button (click)="eight()" [ngModel]="match">Red</button>
+<p [style.color]="colorred ? 'red' : 'black'" [ngModel]="match">Hello, I am a Red.</p>
+<hr/>
+
+
+<button (click)="toggleOther()">Toggle Other</button>
+<button (click)="toggleOtherr()">Toggle Other</button>
+  <input [ngStyle]="otherStyles">This is some other condition.
+<hr/>
+
+
+<hr/>
+<div class="container">
+  <div class="row">
+    <input type="text" placeholder="Write any Comment" [ngStyle]="editStyles">
+  </div>
+  <div class="col">
+    <button type="button" (click)="yellown()" [ngClass]="'yel'">Yellow</button>
+    <button type="button" (click)="redn()" [ngClass]="'re'">Red</button>
+    <button type="button" (click)="bluen()" [ngClass]="'blu'">Blue</button>
+    <button type="button" (click)="greenn()" [ngClass]="'gre'">Green</button>
+  </div>
+<hr/>
+</div>
